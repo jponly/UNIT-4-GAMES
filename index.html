@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="wrapper" class="col-12">
+                <h1 class="crystals_head"> Crystals Collector</h1>
+
+            </div>
+        </div>
+        <div class="row">
+            <div id="rulebox" class="col-6">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your score goes above
+                    the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the value of the crystal</p>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+        <div class="row">
+            <div id="number-guess" class="col-2 box_size">
+                <h6 class="text-center" id="random_number"></h6>
+            </div>
+
+            <div id="score" class="col-2 box_size">
+                <span> Crystal Points:</span>
+                <h6 id="final_score"></h6>
+            </div>
+            <div id="wins_losses" class="col-2 box_size">
+                <h6>Wins: <span id="wins"></span></h6>
+                <h6>Loss: <span id="loss"></span></h6>
+                <div id="game_outcome"></div>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+        <br>
+        <div id="gem_row" class="row">
+            <div id="gem_gallery" class="col-1 gembox">
+                <div id="thumbnail_gem1" data-crystalvalue="5">
+                    <a href="#" class="">
+                        <div class="caption">
+                        </div>
+                        <img src="assets/images/gem1.jpeg" id="gem_photo1">
+                    </a>
+                </div>
+            </div>
+            <div class="col-1 gembox">
+                <div id="thumbnail_gem2" data-crystalvalue="10">
+                    <a href="#" class="">
+                        <div class="caption">
+                        </div>
+                        <img src="assets/images/gem2.jpeg" id="gem_photo2">
+                    </a>
+                </div>
+            </div>
+            <div class="col-1 gembox">
+                <div id="thumbnail_gem3" data-crystalvalue="7">
+                    <a href="#" class="">
+                        <div class="caption">
+                        </div>
+                        <img src="assets/images/gem3.jpeg" id="gem_photo3">
+                    </a>
+                </div>
+            </div>
+            <div class="col-1 gembox">
+                <div id="thumbnail_gem4" data-crystalvalue="3">
+                    <a href="#" class="">
+                        <div class="caption">
+                        </div>
+                        <img src="assets/images/gem4.jpeg" id="gem_photo4">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
+

@@ -1,0 +1,142 @@
+* {
+    margin: 1%;
+    padding: 0;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .crystals_head{
+      padding-left:5%;
+      padding-top:1%;
+  }
+  #gem_row{
+      margin-left:.5%;
+      margin-right: 57%;
+  }
+#rulebox {
+    background-color: pink;
+    border: 2px solid green;
+    margin: 2%;
+    width: 50px;
+
+
+}
+.box_size{
+    width:100px;
+    height:100px;
+    margin:.4%;
+}
+
+#random_number{
+    background-color: pink;
+    border: 2px solid green;
+    height: 100%;
+    padding-top:8%;
+    margin-left: 2%;
+    width: 106%;
+    font-size:200%;
+   
+}
+
+#wins_losses {
+    background-color: pink;
+    border: 2px solid green;
+    
+}
+#number_guess{
+    margin:2px;
+}
+
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    padding-right: .1%;
+}
+.col-1 {
+   
+}
+
+
+#space {
+    background-color: pink;
+    border: 2px solid green;
+   
+
+}
+
+#score {
+    background-color: pink;
+    border: 2px solid green;
+   
+   
+    
+
+}
+
+#space {
+    background-color: pink;
+    
+    border: 2px solid green;
+}
+#gem_photo1{
+    width: 35px;
+    height: 80%;
+    border: 1px solid rgb(180, 178, 178);
+    
+}
+#gem_photo2{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(180, 178, 178);
+}
+#gem_photo3{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(180, 178, 178);
+    
+}
+#gem_photo4{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(180, 178, 178);
+    
+}
+
+#thumbnail_gem1 {
+    width: 10%;
+
+}
+#thumbnail_gem2 {
+    width: 20%;
+
+}
+#thumbnail_gem3 {
+    width: 20%;
+ 
+
+}
+#thumbnail_gem4 {
+    width: 20%;
+
+
+}
+
+#gems_gallery {
+    margin: .5%
+   
+}
+
+body {
+    background: url(images/upfeathers.png);
+}
+
+
+
+
+
+ 
+
+
